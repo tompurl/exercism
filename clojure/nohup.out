@@ -1,0 +1,5 @@
+Dec 30 08:20:10.535 INFO ready
+Dec 30 08:20:10.587 INFO build status, message: BuildEvent(Started { nix_file: NixFile(AbsPathBuf("/home/tom/exercism/shell.nix")), reason: PingReceived })
+Dec 30 08:20:12.180 INFO build status, message: BuildEvent(Completed { nix_file: NixFile(AbsPathBuf("/home/tom/exercism/shell.nix")), rooted_output_paths: OutputPath { shell_gc_root: RootPath(AbsPathBuf("/home/tom/.cache/lorri/gc_roots/4bf456c1cc8585cea3d9342c78b49317/gc_root/shell_gc_root")) } })
+Dec 30 09:40:33.798 INFO build status, message: BuildEvent(Started { nix_file: NixFile(AbsPathBuf("/home/tom/git/RobotAutomation/shell.nix")), reason: PingReceived })
+Dec 30 09:40:35.015 INFO build status, message: BuildEvent(Completed { nix_file: NixFile(AbsPathBuf("/home/tom/git/RobotAutomation/shell.nix")), rooted_output_paths: OutputPath { shell_gc_root: RootPath(AbsPathBuf("/home/tom/.cache/lorri/gc_roots/856af3624cf48d806d36c26ffc5f3401/gc_root/shell_gc_root")) } })
