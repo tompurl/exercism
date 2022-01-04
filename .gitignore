@@ -1,6 +1,4 @@
 *.nrepl-port
-/clojure/pig-latin/target/
-/clojure/accumulate/target/
-/bash/error-handling/.exercism/config.json
-/clojure/acronym/.lein-failures
-/bash/error-handling/.exercism/metadata.json
+target/
+.exercism/
+.lein-failures
