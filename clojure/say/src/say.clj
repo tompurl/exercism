@@ -66,6 +66,7 @@
     (get-three-digit-number num)))
 
 (defn number [num]
+  ;;; TODO Only works for numbers < 1000000
   (loop [num num
          multiplier 1
          phrase ""]
@@ -81,13 +82,14 @@
        (int (/ num 1000))
        (* 1000 multiplier)
        (if (= (mod num 1000) 0)
-         (apply str [phrase " " (get-word multiplier multiples-of-ten)])
-         (apply str [phrase " " (get-small-number (mod num 1000)) " " (get-word multiplier multiples-of-ten)])))
+         (apply str [phrase (get-word multiplier multiples-of-ten)])
+         (apply str [phrase (get-small-number (mod num 1000)) " " (get-word multiplier multiples-of-ten)])))
       )
     )
   )
 
 ;; num     multiplier    phrase
 ;; ------- ------------- -----------
-;; 1000    1             ""
-;; 1       1000         nil one nil                                        ;;
+;; 1000000 1             ""
+;; 1000    1000
+;;
