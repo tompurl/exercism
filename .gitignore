@@ -2,3 +2,4 @@
 target/
 .exercism/
 .lein-failures
+*.out
